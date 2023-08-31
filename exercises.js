@@ -45,3 +45,7 @@ app.get('/boxes', (rep,res) => {
 app.get('/Beds', (req,res) => {
     res.send(Beds)
 });
+
+app.get('/burgers', (req,res) => {
+    res.send(burgers)
+});
