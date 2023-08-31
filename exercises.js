@@ -70,3 +70,7 @@ app.get('/wings' , (req, res) => {
 app.get('/lentils', (req,res) => {
     res.send(lentils)
 });
+
+app.get('/rice', (req,res) => {
+    res.send(rice)
+});
