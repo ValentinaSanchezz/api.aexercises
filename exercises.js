@@ -78,3 +78,7 @@ app.get('/rice', (req,res) => {
 app.get('/potatoes', (req,res) => {
     res.sen(potatoes)
 });
+
+app.ger('/carrot', (req,res) => {
+    res.sen(carrot)
+});
