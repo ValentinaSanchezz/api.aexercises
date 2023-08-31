@@ -37,3 +37,9 @@ app.get('/shoes', (rep,res) => {
 
 
 
+app.get('/boxes', (rep,res) => {
+    res.send(boxes)
+});
+
+
+
