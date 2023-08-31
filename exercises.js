@@ -123,3 +123,16 @@ app.get('/elderly - minor/:number', (req,res) => {
     } else (number > 9)
         res.send('is older')
 });
+
+
+app.get('/user', (req, res) => {
+    const userIngresada = req.params.user;
+  
+    if (userIngresada === userCorrecta) {
+      res.send('correct');
+    } else {
+      res.status(404).send('incorrect');
+    }
+  });
+
+  
