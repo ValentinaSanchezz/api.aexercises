@@ -49,3 +49,7 @@ app.get('/Beds', (req,res) => {
 app.get('/burgers', (req,res) => {
     res.send(burgers)
 });
+
+app.get('/lasagna', (req,res) => {
+    res.send(lasagna)
+});
