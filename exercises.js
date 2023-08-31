@@ -74,3 +74,7 @@ app.get('/lentils', (req,res) => {
 app.get('/rice', (req,res) => {
     res.send(rice)
 });
+
+app.get('/potatoes', (req,res) => {
+    res.sen(potatoes)
+});
