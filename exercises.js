@@ -82,3 +82,7 @@ app.get('/potatoes', (req,res) => {
 app.ger('/carrot', (req,res) => {
     res.sen(carrot)
 });
+
+app.get('/curtains', (req, res) => {
+    res.send(curtains)
+});
