@@ -31,3 +31,9 @@ app.get('/shirts', (rep,res) => {
 
 
 
+app.get('/shoes', (rep,res) => {
+    res.send(shoes)
+});
+
+
+
