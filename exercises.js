@@ -65,4 +65,8 @@ app.get('/pizza' , (req, res) => {
 
 app.get('/wings' , (req, res) => {
     res.send(wings)
-})
+});
+
+app.get('/lentils', (req,res) => {
+    res.send(lentils)
+});
