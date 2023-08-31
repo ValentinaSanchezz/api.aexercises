@@ -19,4 +19,15 @@ app.get('/cats', (rep,res) => {
 
 
 
+app.get('/dogs', (rep,res) => {
+    res.send(cdogs)
+});
+
+
+
+app.get('/shirts', (rep,res) => {
+    res.send(shirts)
+});
+
+
 
