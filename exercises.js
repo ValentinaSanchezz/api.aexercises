@@ -53,3 +53,16 @@ app.get('/burgers', (req,res) => {
 app.get('/lasagna', (req,res) => {
     res.send(lasagna)
 });
+
+app.get('/hotdog', (req,res) => {
+    res.send(hotdog)
+})
+
+app.get('/pizza' , (req, res) => {
+    res.send(pizza)
+})
+ 
+
+app.get('/wings' , (req, res) => {
+    res.send(wings)
+})
