@@ -42,4 +42,6 @@ app.get('/boxes', (rep,res) => {
 });
 
 
-
+app.get('/Beds', (req,res) => {
+    res.send(Beds)
+});
