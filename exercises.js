@@ -113,4 +113,13 @@ app.get('/elderly - minor/:number', (req,res) => {
     } else (numero < 7)
         res.send('is less')
     
-})
+});
+
+app.get('/elderly - minor/:number', (req,res) => {
+    const minor = parseInt(req.params.cantidad);
+
+    if(number < 9){
+        res.send('is less')
+    } else (number > 9)
+        res.send('is older')
+});
