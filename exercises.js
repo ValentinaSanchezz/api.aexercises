@@ -90,3 +90,7 @@ app.get('/curtains', (req, res) => {
 app.get('/Beds', (req,res) => {
     res.send(Beds)
 });
+
+app.get('/fans', (req,res)=> {
+    res.send(fans)
+});
