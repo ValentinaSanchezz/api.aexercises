@@ -7,3 +7,16 @@ app.get('/cellphones', (rep,res) => {
 });
 
 
+app.get('/houses', (rep,res) => {
+    res.send(houses)
+});
+
+
+
+app.get('/cats', (rep,res) => {
+    res.send(cats)
+});
+
+
+
+
