@@ -94,3 +94,23 @@ app.get('/Beds', (req,res) => {
 app.get('/fans', (req,res)=> {
     res.send(fans)
 });
+
+app.get('/positive-negative/:number', (req, res) => {
+    const numero = parseFloat(req.params.numero);
+  
+    if (numero > 0) {
+      res.send('positive');
+    } else (numero < 0)
+      res.send('negative');
+    
+});
+
+app.get('/elderly - minor/:number', (req,res) => {
+    const numero = parseInt(req.params.cantidad);
+
+    if(numero > 7){
+        res.send ('is older');
+    } else (numero < 7)
+        res.send('is less')
+    
+})
