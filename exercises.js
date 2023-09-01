@@ -135,4 +135,12 @@ app.get('/user', (req, res) => {
     }
   });
 
-  
+  app.get('/cash', (req,res) => {
+    const cash = parseInt(req.params.mayor)
+
+    if(money > 1000000) {
+        res.send('is older')
+    }else (money > 1000000) 
+        res.send('is less')
+         
+  });
